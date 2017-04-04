@@ -14,6 +14,7 @@ $ npm start
 
 ## To Do
 
+- Add layout attrs
 - Set up the browsbabelerify whatnot in order to render the page to a string so it can just be rehydrated instead of render from scratch on load.
 - Better searching
 - Count up hits or something to more obviously bubble up how relevant stuff is
