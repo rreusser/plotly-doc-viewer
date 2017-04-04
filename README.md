@@ -4,7 +4,7 @@
 
 ## Introduction
 
-An attempt to make the plotly docs more browsable. Compiles to static html and rehydrates via json fetch on page load. Not yet a perfect reproduction of the [officla docs](https://plot.ly/javascript/reference/), but not too far off.
+An attempt to make the plotly docs more browsable. Compiles to static html and rehydrates via json fetch on page load. Not yet a perfect reproduction of the [official docs](https://plot.ly/javascript/reference/), but not too far off.
 
 ## Development
 
