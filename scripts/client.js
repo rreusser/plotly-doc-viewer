@@ -10,7 +10,7 @@ import filterSchema from '../lib/filter-schema'
 var schema = JSON.parse(fs.readFileSync(path.join(__dirname, '../assets/schema.json'), 'utf8'));
 
 // Expand interior
-filterSchema(schema, '.')
+schema = filterSchema(schema, '.')
 
 // Expand trace sections:
 var traceTypes = Object.keys(schema.traces);
