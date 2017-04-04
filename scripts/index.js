@@ -9,7 +9,8 @@ var ghcorner = require('github-cornerify');
 
 html({
   script: 'assets/bundle.js',
-  content: fs.readFileSync(path.join(__dirname, '../assets/_static.html'), 'utf8')
+  content: fs.readFileSync(path.join(__dirname, '../assets/_static.html'), 'utf8'),
+  css: 'assets/styles.css'
 })
   .pipe(metadataify(JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')), 'utf8')))
   .pipe(ghcorner())
