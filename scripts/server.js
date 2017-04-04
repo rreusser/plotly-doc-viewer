@@ -6,7 +6,7 @@ var html = require('../lib/index');
 
 budo('lib/client.js', {
   live: true,
-  open: false,
+  open: true,
   host: 'localhost',
   forceDefaultIndex: true,
   defaultIndex: () => html('client.js'),
