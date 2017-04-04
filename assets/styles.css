@@ -5,30 +5,7 @@
 }
 
 .docContent {
-  padding-top: 90px;
-}
-
-.searchBar.row {
-  background: #2391fe !important;
-  padding: 10px 20px;
-  position: fixed;
-  left: 0;
-  right: 0;
-  top: 0;
-  z-index: 100;
-  padding: 0;
-  margin: 0;
-}
-
-.searchBar input {
-  width: 300px;
-  margin-top: 12px;
-  margin-bottom: 12px;
-  height: 20px;
-  font-size: 16px;
-  padding: 5px 20px;
-  border-radius: 20px;
-  border: none;
+  padding-top: 100px;
 }
 
 .attrToggle {
@@ -55,4 +32,59 @@
 a:link.github-corner {
   position: absolute;
   opacity: 1;
+}
+
+.searchBar.row {
+  text-align: right;
+  background: #2391fe !important;
+  padding: 10px 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  padding: 0;
+  margin: 0;
+}
+
+.searchBar-title {
+  display: inline-block !important;
+  color: white;
+  font-family: monospace;
+  font-size: 24px;
+  font-weight: 400;
+  padding-top: 12px;
+  width: auto !important;
+  margin: 0;
+  float: left;
+}
+
+.searchBar-title a:link:hover,
+.searchBar-title a:link {
+  opacity: 1 !important;
+  color: white !important;
+  text-decoration: none !important;
+}
+
+.searchBar-box {
+  position: relative;
+  display: inline-block;
+}
+
+.searchBar-box input {
+  width: 300px;
+  max-width: 300px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 20px;
+  font-size: 16px;
+  padding: 5px 20px 5px 40px;
+  border-radius: 20px;
+  border: none;
+}
+
+.searchBar-box i {
+  position: absolute;
+  top: 15px;
+  left: 15px;
 }
