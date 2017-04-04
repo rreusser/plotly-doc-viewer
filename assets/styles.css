@@ -59,7 +59,7 @@ a:link.github-corner {
   float: left;
 }
 
-.searchBar-title a:link:hover,
+.searchBar-title a:hover,
 .searchBar-title a:link {
   opacity: 1 !important;
   color: white !important;
