@@ -24,7 +24,6 @@ $ npm run build
 
 ## To Do
 
-- Add layout attrs
 - Better searching
 - Count up hits or something to more obviously bubble up how relevant stuff is
 - UI fanciness
