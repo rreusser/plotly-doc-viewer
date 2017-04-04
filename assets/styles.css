@@ -1,0 +1,53 @@
+.row .eight.columns {
+  margin-left: auto;
+  margin-right: auto;
+  padding-left: 20px;
+}
+
+.docContent {
+  padding-top: 90px;
+}
+
+.searchBar.row {
+  background: #2391fe !important;
+  padding: 10px 20px;
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  z-index: 100;
+  padding: 0;
+  margin: 0;
+}
+
+.searchBar input {
+  width: 300px;
+  margin-top: 12px;
+  margin-bottom: 12px;
+  height: 20px;
+  font-size: 16px;
+  padding: 5px 20px;
+  border-radius: 20px;
+  border: none;
+}
+
+.attrToggle {
+  background: none;
+  border: none;
+  font-size: 24px;
+  color: #2391fe;
+  padding: 0;
+  margin-right: 0.3em;
+  width: 1.5em;
+  text-align: left;
+}
+
+.row .eight h4 {
+  margin-top: 0;
+}
+
+.row.collapsed .eight h4 {
+  margin-bottom: 0;
+  border: none;
+  padding: 0;
+}
