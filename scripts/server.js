@@ -9,7 +9,7 @@ budo('lib/client.js', {
   open: true,
   host: 'localhost',
   forceDefaultIndex: true,
-  defaultIndex: () => html('client.js'),
+  defaultIndex: () => html({script: 'client.js'}),
   browserify: {
     transform: [
       babelify.configure({
