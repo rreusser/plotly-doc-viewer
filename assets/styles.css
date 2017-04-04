@@ -88,3 +88,8 @@ a:link.github-corner {
   top: 15px;
   left: 15px;
 }
+
+.noResultsYo {
+  font-size: 60px;
+  text-align: center;
+}
