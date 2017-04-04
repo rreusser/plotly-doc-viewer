@@ -30,7 +30,7 @@
 }
 
 a:link.github-corner {
-  position: absolute;
+  position: fixed;
   opacity: 1;
 }
 
