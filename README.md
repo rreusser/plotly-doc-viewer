@@ -7,7 +7,7 @@
 Just clone it, then:
 
 ```bash
-$ yarn install
+$ npm install
 $ npm run export-schema
 $ npm start
 ```
