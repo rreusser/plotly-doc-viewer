@@ -8,6 +8,10 @@
     "export-schema": "node scripts/export-schema.js > data/schema.json",
     "build": "browserify lib/client.js -t [ babelify --presets [ es2015 react ] --plugins [ transform-class-properties ] ] -g [envify --NODE_ENV 'production'] -t brfs | uglifyjs -c -m > assets/bundle.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/rreusser/plotly-doc-viewer.git"
+  },
   "keywords": [],
   "author": "",
   "license": "ISC",
@@ -25,6 +29,7 @@
     "brfs": "^1.4.3",
     "browserify": "^14.1.0",
     "envify": "^4.0.0",
+    "github-cornerify": "^1.0.7",
     "html-inject-script": "^1.1.0",
     "hyperstream": "^1.2.2",
     "insert-css": "^2.0.0",
