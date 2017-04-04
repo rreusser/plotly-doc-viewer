@@ -8,7 +8,7 @@ Just clone it, then:
 
 ```bash
 $ npm install
-$ npm run export-schema
+$ npm run build:schema
 $ npm start
 ```
 

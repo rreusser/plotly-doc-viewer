@@ -5,8 +5,10 @@
   "main": "index.js",
   "scripts": {
     "start": "node scripts/server.js",
-    "export-schema": "node scripts/export-schema.js > data/schema.json",
-    "build": "browserify lib/client.js -t [ babelify --presets [ es2015 react ] --plugins [ transform-class-properties ] ] -g [envify --NODE_ENV 'production'] -t brfs | uglifyjs -c -m > assets/bundle.js"
+    "build:schema": "node scripts/export-schema.js > assets/schema.json",
+    "build:js": "browserify lib/client.js -t [ babelify --presets [ es2015 react ] --plugins [ transform-class-properties ] ] -g [envify --NODE_ENV 'production'] -t brfs | uglifyjs -c -m > assets/bundle.js",
+    "build:html": "node scripts/index.js > index.html",
+    "build": "npm run build:schema && npm run build:js && npm run build:html"
   },
   "repository": {
     "type": "git",
