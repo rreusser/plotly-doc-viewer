@@ -18,4 +18,4 @@ for (var i = 0; i < traceTypes.length; i++) {
   schema.traces[traceTypes[i]]._expanded = true;
 }
 
-global.process.stdout.write(ReactDOM.renderToStaticMarkup(<Docs schema={schema}/>), 'utf8');
+global.process.stdout.write(ReactDOM.renderToString(<Docs schema={schema}/>), 'utf8');
