@@ -2,6 +2,10 @@
 
 > Standalone viewer + search for plotly.js docs [&xrarr; live viewer](http://rickyreusser.com/plotly-doc-viewer/)
 
+## Introduction
+
+An attempt to make the plotly docs more browsable. Compiles to static html and rehydrates via json fetch on page load. Not yet a perfect reproduction of the [officla docs](https://plot.ly/javascript/reference/), but not too far off.
+
 ## Development
 
 Just clone it, then:
