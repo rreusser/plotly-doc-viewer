@@ -1,7 +1,7 @@
 {
-  "name": "plotly-fancydocs",
+  "name": "plotly-doc-viewer",
   "version": "1.0.0",
-  "description": "",
+  "description": "Standalone viewer + search for plotly.js docs",
   "main": "index.js",
   "scripts": {
     "start": "node scripts/server.js",

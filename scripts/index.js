@@ -11,6 +11,6 @@ html({
   script: 'assets/bundle.js',
   content: fs.readFileSync(path.join(__dirname, '../assets/_static.html'), 'utf8')
 })
-  .pipe(metadataify())
+  .pipe(metadataify(JSON.parse(fs.readFileSync(path.join(__dirname, '../package.json')), 'utf8')))
   .pipe(ghcorner())
   .pipe(process.stdout);
