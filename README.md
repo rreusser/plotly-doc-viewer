@@ -16,6 +16,7 @@ $ npm start
 
 - Set up the browsbabelerify whatnot in order to render the page to a string so it can just be rehydrated instead of render from scratch on load.
 - Better searching
+- Count up hits or something to more obviously bubble up how relevant stuff is
 - UI fanciness
 - Maybe use it for reals? Or just for my own use. TBD.
 
