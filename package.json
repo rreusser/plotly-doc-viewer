@@ -30,7 +30,7 @@
     "github-cornerify": "^1.0.7",
     "hyperstream": "^1.2.2",
     "jsdom": "^9.12.0",
-    "metadataify": "^1.0.3",
+    "metadataify": "git@github.com:rreusser/metadataify.git",
     "plotly.js": "^1.25.2",
     "simple-html-index": "^1.5.0",
     "uglify-js": "^2.8.21"
