@@ -1,6 +1,6 @@
 # plotly-doc-viewer
 
-> Standalone viewer + search for plotly.js docs [&xrarr; live viewer](http://rickyreusser.com/plotly-doc-viewer/)
+> Standalone viewer + search for plotly.js docs [&xrarr; live viewer](https://rreusser.github.io/plotly-doc-viewer/)
 
 ## Introduction
 
